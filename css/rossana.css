@@ -1,0 +1,161 @@
+:root {
+  --colorPrin: #1b262c;
+  --colorSecu: #0f4c75;
+  --colorTerc: #3282b8;
+  --letterPrin: 'Oswald', 'Lobster', sans-serif;
+  --letterSecu: 'Raleway', 'Roboto' , serif;
+  --colorletter: #fff;
+  --position-contentposter: absolute;
+  --width-contentposter: 50%;
+  --height-contentposter: 50%: 
+}
+
+body{
+  background-color: var(--colorPrin);
+  color: var(--colorletter);
+}
+/*-------------------------------------------------MENU---------------------------------*/
+:target{
+  padding-top: 5rem
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  z-index: 100;
+}
+
+.menu {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  background-color: var(--colorTerc);
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link , 
+.menu-tittle{
+  text-decoration: none;
+  display: block;
+  color: var(--colorletter);
+}
+
+.menu-link{
+  position: relative;
+  top: .3rem;
+  left: 45rem;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.menu-link:hover{
+  background-color: var(--colorSecu);
+  display: inline-block
+}
+
+/*-----------------------------------------------CONTENIDO-------------------------------------------*/
+
+.notice{
+  margin-top: 6rem;
+}
+
+.tittle-deporte{
+  text-align: center;
+  font-size: 2em;
+  font-family: var(--letterPrin);
+}
+
+.tittle-poster{
+  text-align: center;
+  font-size: 1.5em ;
+  font-family: var(--letterPrin);
+}
+
+.content-poster,
+.content-poster-2,
+.content-poster-3,
+.content-poster-4,
+.content-poster-5,
+.content-poster-6,
+.content-poster-7,
+.content-poster-8,
+.content-poster-9{
+  position: var(--position-contentposter);
+  width: var(--width-contentposter);
+  height: var(--height-contentposter);
+  font-family: var(--letterSecu);
+}
+
+.content-poster{
+  bottom: -2em;
+  left: 28em;
+  font-size: 1.5em;
+}
+
+.content-poster-2{
+  bottom: -24em;
+  left: 23em;
+  font-size: 1.7em;
+}
+
+.content-poster-3{
+  top: 52em;
+  left: 23em;
+  font-size: 1.7em;
+}
+
+.content-poster-4{
+  bottom: -3.2em;
+  left: 27em;
+  font-size: 1.5em;
+}
+  
+.content-poster-5{
+  bottom: -19em;
+  left: 22em;
+  font-size: 1.8em;
+}
+  
+.content-poster-6{
+  top: 41em;
+  left: 22em;
+  font-size: 1.8rem;
+}
+
+.content-poster-7{
+  bottom: -1.5em;
+  left: 27em;
+  font-size: 1.5em;
+}
+  
+.content-poster-8{
+  bottom: -26.5em;
+  left: 30em;
+  font-size: 1.3em;
+}
+  
+.content-poster-9{
+  top: 50em;
+  left: 27em;
+  font-size: 1.5em; 
+}
+
+.img-poster{
+  margin-left: 1.5em;
+  position: relative;
+}
+
+.twitter-tweet{
+  margin-left: 2em;
+}
+
+a{
+  color: var(--colorSecu);
+}
